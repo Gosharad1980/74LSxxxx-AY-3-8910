@@ -3734,12 +3734,12 @@
 		(uuid "36846c3d-e038-4387-9700-5df9c795380f")
 	)
 	(no_connect
-		(at 247.65 55.88)
-		(uuid "bd0de9d3-2488-4a44-b111-039bbb7ca8a1")
+		(at 207.01 41.91)
+		(uuid "648ecd27-10f7-4e49-87ad-372bebc70cc9")
 	)
 	(no_connect
-		(at 207.01 41.91)
-		(uuid "cebc6d38-5e1f-40c5-9428-70ca75065525")
+		(at 247.65 55.88)
+		(uuid "f4c95aaa-c96a-46c0-84c0-ff33a8ab17ce")
 	)
 	(wire
 		(pts

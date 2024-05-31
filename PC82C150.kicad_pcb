@@ -239,7 +239,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/78a372ad-adfc-47d2-b383-1afa5c3ecefd")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.6 -1.135)
@@ -474,7 +474,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/fd957169-7bcb-4e23-b812-5769f6d13596")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.46 -1.135)
@@ -705,7 +705,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "4bba1857-d2dc-43dd-84e5-b0f8deb38f79")
 			(effects
@@ -757,7 +757,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ad7923be-cc6b-46f8-a15b-5f07743ec66c")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -860,7 +860,7 @@
 			(uuid "ec11d5f8-43f8-4152-9758-3a4971ab5c66")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "728eb8f4-71ff-4bf5-a55b-956cf991dbd4")
 			(effects
@@ -972,7 +972,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/17ac3cff-671f-407b-b741-ca2a335bccc3")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -1187,7 +1187,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f42ef962-b2c0-429c-8569-3ba4da4cb3c5")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -1401,7 +1401,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/b6ca26ea-19a5-4035-8e96-f335c9b2ed6e")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -1671,7 +1671,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6b685343-84d5-4203-9ac5-b32df8cc45ca")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -1897,7 +1897,7 @@
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "LED_RED1"
-			(at 0 -1.82 360)
+			(at 0 -1.82 0)
 			(layer "F.SilkS")
 			(uuid "b21735a4-1da4-458f-84cc-e1481d58f3df")
 			(effects
@@ -1908,7 +1908,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "bcab9039-9c29-4722-9ba6-afaa94c2b1af")
 			(effects
@@ -1960,7 +1960,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/bdc23a5f-1502-43fb-80af-eea5d417649e")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.46 -1.135)
@@ -2083,7 +2083,7 @@
 			(uuid "0fe6104e-6c14-4682-b214-af14d18aa9f5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b9f57101-cb53-4bff-b2e1-2876492582f7")
 			(effects
@@ -2132,7 +2132,7 @@
 		(descr "SOT-363, SC-70-6, Handsoldering")
 		(tags "SOT-363 SC-70-6 Handsoldering")
 		(property "Reference" "Q1"
-			(at 0 -2.25 270)
+			(at 0 -2.25 -90)
 			(layer "F.SilkS")
 			(uuid "925a2a8d-0ff7-4454-bc77-28327da66ba9")
 			(effects
@@ -2195,7 +2195,7 @@
 		(property ki_fp_filters "SC?70* SC?88* SOT?363* SOT?23*")
 		(path "/f0f32371-7d43-416b-944a-41606f333ed9")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.71 -1.16)
@@ -2320,7 +2320,7 @@
 			(uuid "16ce361f-8875-4e96-810b-8c8c1a9d9d53")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ac62a21d-f533-46a9-9f54-4f08c2a712a2")
 			(effects
@@ -2520,7 +2520,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1d7b49bb-5661-4d14-ad7d-5f567b56ffc4")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -2733,7 +2733,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/66f039c2-1262-47f9-aafe-ad8e5ed5fca9")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -2946,7 +2946,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6ee13998-b1d4-4481-9aab-d75b05d2f634")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -3164,7 +3164,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3009d067-2bb1-4fdd-a566-2751065a54d5")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 -1.27)
@@ -3639,7 +3639,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/be1fbf11-d90a-4a4f-897e-a0d43b70c6cf")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.711252 0.91)
@@ -3905,7 +3905,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/545f93b7-392e-418c-a85a-326320c45aaf")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.711252 -0.91)
@@ -4125,7 +4125,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d39749d4-06a9-43b6-b63d-75bd7832852b")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 -0.91)
@@ -4344,7 +4344,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6d310987-8ca3-4b63-b552-b108e3d34900")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 -1.27)
@@ -4652,7 +4652,7 @@
 			(remove_unused_layers no)
 			(net 22 "unconnected-(Droite40-Pin_13-Pad13)")
 			(pinfunction "Pin_13")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "d005452d-c057-4cff-832b-ebb8deed18dc")
 		)
 		(pad "14" thru_hole oval
@@ -4893,7 +4893,7 @@
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/dfcf9ec4-fd1b-4ca4-82da-1f35bae8aa73")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.91 -3.41)
@@ -5198,7 +5198,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/be43a74a-d46c-4a4c-8cd5-bb9d6a3750f6")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.602064 -0.91)
@@ -5418,7 +5418,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/98b6b7a9-e454-4f8d-be0a-17d092eb1287")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.711252 0.91)
@@ -5636,7 +5636,7 @@
 		(property ki_fp_filters "TQFP32_MC_MCH TQFP32_MC_MCH-M TQFP32_MC_MCH-L")
 		(path "/44c0dfea-fd4e-422a-a8ea-fe1b82c4fce8")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -7315,7 +7315,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 37 "unconnected-(U4-PA00{slash}CMP2-Pad1)")
 			(pinfunction "PA00/CMP2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "0cd77914-37f0-4c06-abe3-ea153e6f86b8")
 		)
 		(pad "2" smd rect
@@ -7549,7 +7549,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 42 "unconnected-(U4-PA28-Pad27)")
 			(pinfunction "PA28")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "6535fc47-032a-464e-a86a-4d1e0979f854")
 		)
 		(pad "28" smd rect
@@ -7739,7 +7739,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/208479e8-3f10-44cb-bfc0-1b561cc0f4b9")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.711252 -0.91)
@@ -7960,7 +7960,7 @@
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/cc61fb58-cc36-4e1d-8c60-04801370fff7")
 		(sheetname "Root")
-		(sheetfile "PCA82C150.kicad_sch")
+		(sheetfile "PC82C150.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.95 2.56)
