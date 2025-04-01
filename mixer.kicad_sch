@@ -5042,7 +5042,7 @@
 		(uuid "5e399d26-e4df-40f7-9202-ab3416398159")
 	)
 	(hierarchical_label "DA[0..7]"
-		(shape input)
+		(shape bidirectional)
 		(at 30.48 29.21 180)
 		(effects
 			(font

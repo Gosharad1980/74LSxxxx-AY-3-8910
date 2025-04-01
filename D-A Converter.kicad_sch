@@ -3471,7 +3471,7 @@
 		(uuid "2db5f89c-d399-4239-b953-03f9d329c029")
 	)
 	(hierarchical_label "Lvl[0..3]"
-		(shape input)
+		(shape bidirectional)
 		(at 33.02 62.23 180)
 		(effects
 			(font

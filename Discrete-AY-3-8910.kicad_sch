@@ -6439,7 +6439,7 @@
 		(uuid "fe38bf9d-2727-4377-809d-a0cfb44508c4")
 	)
 	(global_label "PORTB[0..7]"
-		(shape input)
+		(shape bidirectional)
 		(at 59.69 247.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6450,7 +6450,7 @@
 		)
 		(uuid "6b87c38c-42fe-46a3-85a5-a589de7c991d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.2747 247.65 0)
+			(at 44.1634 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +6461,7 @@
 		)
 	)
 	(global_label "PORTA[0..7]"
-		(shape input)
+		(shape bidirectional)
 		(at 165.1 267.97 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6472,7 +6472,7 @@
 		)
 		(uuid "9592056d-1b5f-477f-b7b2-6994fc525834")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.8661 267.97 0)
+			(at 149.7548 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6483,7 @@
 		)
 	)
 	(global_label "PORTA[0..7]"
-		(shape input)
+		(shape bidirectional)
 		(at 59.69 267.97 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6494,7 +6494,7 @@
 		)
 		(uuid "97a78ea3-08a6-4d69-9bab-081a5554d952")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.4561 267.97 0)
+			(at 44.3448 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6527,7 @@
 		)
 	)
 	(global_label "DATA[0..7]"
-		(shape input)
+		(shape bidirectional)
 		(at 95.25 242.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6538,7 +6538,7 @@
 		)
 		(uuid "a9b13396-a027-4168-b084-d7b7eae9a718")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.972 242.57 0)
+			(at 109.0833 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6549,7 +6549,7 @@
 		)
 	)
 	(global_label "DATA[0..7]"
-		(shape input)
+		(shape bidirectional)
 		(at 200.66 252.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6560,7 +6560,7 @@
 		)
 		(uuid "c1cb7b1a-3024-4a4e-b42a-b57e098dcc3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.382 252.73 0)
+			(at 214.4933 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9069,9 +9069,9 @@
 				(justify left)
 			)
 		)
-		(pin "DA[0..7]" input
+		(pin "DA[0..7]" bidirectional
 			(at 140.97 175.26 180)
-			(uuid "497a7b25-82a6-4ec9-8f5a-8997c28aa229")
+			(uuid "d52c22d9-eca8-4801-bbe0-cee0382d0233")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9171,16 +9171,6 @@
 				(justify left)
 			)
 		)
-		(pin "DA[0..7]" input
-			(at 140.97 74.93 180)
-			(uuid "a51d5ea6-48a6-4394-9ac6-a697aedd1e3e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{WrTone}-Fine" input
 			(at 140.97 67.31 180)
 			(uuid "ec8b7690-a71e-4eda-bdda-9e3088c01f93")
@@ -9214,6 +9204,16 @@
 		(pin "~{RdTone}-Fine" input
 			(at 140.97 64.77 180)
 			(uuid "5f424ae1-0adb-4270-95f6-ec3e93bb10f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DA[0..7]" bidirectional
+			(at 140.97 74.93 180)
+			(uuid "2c40f170-4479-4a9a-aacf-8edf22c6d6c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9333,9 +9333,9 @@
 				(justify left)
 			)
 		)
-		(pin "DA[0..7]" input
+		(pin "DA[0..7]" bidirectional
 			(at 289.56 102.87 180)
-			(uuid "d3c665c5-7d5c-44c5-89de-9c21f290a0ea")
+			(uuid "627d61d1-f624-4686-b68c-d644e7c6e6ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9454,9 +9454,9 @@
 				(justify right)
 			)
 		)
-		(pin "DA[0..7]" input
+		(pin "DA[0..7]" bidirectional
 			(at 222.25 182.88 180)
-			(uuid "909d117e-3c78-4a47-a883-d4d964b531a8")
+			(uuid "6a361c8b-e2bd-4b86-bb33-e2181b1f1fee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9556,16 +9556,6 @@
 				(justify left)
 			)
 		)
-		(pin "DA[0..7]" input
-			(at 140.97 107.95 180)
-			(uuid "0cf8b374-d2a3-44e6-bf8d-3ad8e6bb9c03")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{WrTone}-Fine" input
 			(at 140.97 100.33 180)
 			(uuid "c954ea26-c90c-42b3-ace0-54a8f17c3605")
@@ -9599,6 +9589,16 @@
 		(pin "~{RdTone}-Fine" input
 			(at 140.97 97.79 180)
 			(uuid "ebaccb2a-b991-4721-8e7f-4b5241053949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DA[0..7]" bidirectional
+			(at 140.97 107.95 180)
+			(uuid "8d1ed144-ce4d-4072-b1bb-430d812e1239")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9810,9 +9810,9 @@
 				(justify left)
 			)
 		)
-		(pin "DA[0..7]" input
+		(pin "DA[0..7]" bidirectional
 			(at 289.56 137.16 180)
-			(uuid "a6674805-f747-47b3-bc9a-814ceedf07be")
+			(uuid "d6023416-a085-466e-b056-ba4f9901c594")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,16 +9912,6 @@
 				(justify left)
 			)
 		)
-		(pin "DA[0..7]" input
-			(at 140.97 142.24 180)
-			(uuid "de4f6e8e-58cf-426d-a9e2-90046a052035")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{WrTone}-Fine" input
 			(at 140.97 134.62 180)
 			(uuid "4a136c97-1f6a-4a7f-afb4-1745e63ae86d")
@@ -9955,6 +9945,16 @@
 		(pin "~{RdTone}-Fine" input
 			(at 140.97 132.08 180)
 			(uuid "2c56a505-7eb4-4b29-9218-354f0416bb60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DA[0..7]" bidirectional
+			(at 140.97 142.24 180)
+			(uuid "54a939a1-93b0-487c-939a-4178ce6bfaf3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10074,9 +10074,9 @@
 				(justify left)
 			)
 		)
-		(pin "DA[0..7]" input
+		(pin "DA[0..7]" bidirectional
 			(at 289.56 69.85 180)
-			(uuid "7c290895-cd80-471c-b438-9e67e1fb5857")
+			(uuid "8174d529-2885-4b52-9a43-7dd949109c2d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10546,9 +10546,9 @@
 				(justify left)
 			)
 		)
-		(pin "DA[0..7]" input
+		(pin "DA[0..7]" bidirectional
 			(at 58.42 88.9 180)
-			(uuid "ea325c21-81d1-4427-ac17-a0d6fe43ca72")
+			(uuid "e0a3eef0-4443-42e2-bd9a-a353e1a149d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10698,16 +10698,6 @@
 				(justify left)
 			)
 		)
-		(pin "DA[0..7]" input
-			(at 218.44 107.95 180)
-			(uuid "9fab3d21-8a76-41a3-ae3b-22351e867377")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ToneB" input
 			(at 218.44 100.33 180)
 			(uuid "3bc973cb-accf-4ed5-b785-49e87b23434f")
@@ -10721,6 +10711,16 @@
 		(pin "ToneA" input
 			(at 218.44 97.79 180)
 			(uuid "c42970f7-184c-46c5-be66-2e6cc43ba131")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DA[0..7]" bidirectional
+			(at 218.44 107.95 180)
+			(uuid "142ef328-3e30-4ab7-8612-f717a8e2fa72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10954,16 +10954,6 @@
 				(justify left top)
 			)
 		)
-		(pin "DA[0..7]" input
-			(at 190.5 68.2977 180)
-			(uuid "868965e9-b6fd-4bbd-bb07-1a51c0d2f897")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VCC" passive
 			(at 214.63 57.15 90)
 			(uuid "b2817703-a03a-4fc1-a3ee-9b571e0c6dbd")
@@ -11032,6 +11022,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DA[0..7]" bidirectional
+			(at 190.5 68.58 180)
+			(uuid "8697ea84-16d5-4da4-aee7-1c94e5e50f39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

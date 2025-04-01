@@ -8490,7 +8490,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 40.64) (xy 195.58 40.64)
+			(xy 187.96 40.64) (xy 229.87 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8799,7 +8799,7 @@
 		(uuid "9bac0a5f-f585-4b70-88b1-50692e639ac3")
 	)
 	(label "Attack"
-		(at 189.23 40.64 0)
+		(at 220.98 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8990,7 +8990,7 @@
 		(uuid "00568d97-063e-42c5-888c-5bdbbc6e925f")
 	)
 	(hierarchical_label "DA[0..7]"
-		(shape input)
+		(shape bidirectional)
 		(at 25.4 20.32 180)
 		(effects
 			(font
@@ -9321,7 +9321,7 @@
 	)
 	(hierarchical_label "Attack"
 		(shape output)
-		(at 195.58 40.64 0)
+		(at 229.87 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)

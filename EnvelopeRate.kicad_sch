@@ -8529,7 +8529,7 @@
 		(uuid "bc7ab019-f068-4774-9a20-49fb3969d4af")
 	)
 	(hierarchical_label "DA[0..7]"
-		(shape input)
+		(shape bidirectional)
 		(at 22.86 29.21 180)
 		(effects
 			(font
